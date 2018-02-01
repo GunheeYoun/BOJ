@@ -8,8 +8,8 @@ int main()
 	int x = n;
 	while (n > 8)
 	{
-			n = n / 9;
-			t++;	
+		n = n / 9;
+		t++;	
 	} 
 	for (int i = t; i > 0; i--)
 	{
