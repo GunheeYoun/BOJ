@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+
+
 int n;
 int arr[10];
 int main()
@@ -31,7 +33,7 @@ int main()
 					break;
 				}
 			}
-			if (chk)
+			if (chk)//6이나 9를 제외한 숫자가 최빈수일 때
 				cout << ans << endl;
 			else
 			{
